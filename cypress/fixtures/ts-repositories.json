@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "OpenGlass",
+      "full_name": "BasedHardware/OpenGlass",
+      "owner": {
+        "login": "BasedHardware",
+        "avatar_url": "https://avatars.githubusercontent.com/u/162546372?v=4"
+      },
+      "html_url": "https://github.com/BasedHardware/OpenGlass",
+      "description": "Turn any glasses into AI-powered smart glasses",
+      "stargazers_count": 1591,
+      "language": "TypeScript"
+    },
+    {
+      "id": 3,
+      "name": "SmartHomeHub",
+      "full_name": "HomeAutomation/SmartHomeHub",
+      "owner": {
+        "login": "HomeAutomation",
+        "avatar_url": "https://avatars.githubusercontent.com/u/239417829?v=4"
+      },
+      "html_url": "https://github.com/HomeAutomation/SmartHomeHub",
+      "description": "Centralized control for all your smart home devices",
+      "stargazers_count": 3245,
+      "language": "TypeScript"
+    }
+  ]
+}

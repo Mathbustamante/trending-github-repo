@@ -1,0 +1,134 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "OpenGlass",
+      "full_name": "BasedHardware/OpenGlass",
+      "owner": {
+        "login": "BasedHardware",
+        "avatar_url": "https://avatars.githubusercontent.com/u/162546372?v=4"
+      },
+      "html_url": "https://github.com/BasedHardware/OpenGlass",
+      "description": "Turn any glasses into AI-powered smart glasses",
+      "stargazers_count": 1591,
+      "language": "TypeScript"
+    },
+    {
+      "id": 2,
+      "name": "DeepLens",
+      "full_name": "VisionaryAI/DeepLens",
+      "owner": {
+        "login": "VisionaryAI",
+        "avatar_url": "https://avatars.githubusercontent.com/u/87326134?v=4"
+      },
+      "html_url": "https://github.com/VisionaryAI/DeepLens",
+      "description": "A deep learning framework for advanced image recognition",
+      "stargazers_count": 2763,
+      "language": "Python"
+    },
+    {
+      "id": 3,
+      "name": "SmartHomeHub",
+      "full_name": "HomeAutomation/SmartHomeHub",
+      "owner": {
+        "login": "HomeAutomation",
+        "avatar_url": "https://avatars.githubusercontent.com/u/239417829?v=4"
+      },
+      "html_url": "https://github.com/HomeAutomation/SmartHomeHub",
+      "description": "Centralized control for all your smart home devices",
+      "stargazers_count": 3245,
+      "language": "TypeScript"
+    },
+    {
+      "id": 4,
+      "name": "CryptoGuard",
+      "full_name": "SecureBlocks/CryptoGuard",
+      "owner": {
+        "login": "SecureBlocks",
+        "avatar_url": "https://avatars.githubusercontent.com/u/987654321?v=4"
+      },
+      "html_url": "https://github.com/SecureBlocks/CryptoGuard",
+      "description": "Advanced security toolkit for cryptocurrency transactions",
+      "stargazers_count": 1984,
+      "language": "Go"
+    },
+    {
+      "id": 5,
+      "name": "EcoTracker",
+      "full_name": "GreenTech/EcoTracker",
+      "owner": {
+        "login": "GreenTech",
+        "avatar_url": "https://avatars.githubusercontent.com/u/273849275?v=4"
+      },
+      "html_url": "https://github.com/GreenTech/EcoTracker",
+      "description": "Track and reduce your carbon footprint easily",
+      "stargazers_count": 1123,
+      "language": "Ruby"
+    },
+    {
+      "id": 6,
+      "name": "FitnessAI",
+      "full_name": "HealthSolutions/FitnessAI",
+      "owner": {
+        "login": "HealthSolutions",
+        "avatar_url": "https://avatars.githubusercontent.com/u/537289123?v=4"
+      },
+      "html_url": "https://github.com/HealthSolutions/FitnessAI",
+      "description": "AI-driven fitness and workout planner",
+      "stargazers_count": 2549,
+      "language": "Swift"
+    },
+    {
+      "id": 7,
+      "name": "EduTech",
+      "full_name": "LearnBetter/EduTech",
+      "owner": {
+        "login": "LearnBetter",
+        "avatar_url": "https://avatars.githubusercontent.com/u/345672890?v=4"
+      },
+      "html_url": "https://github.com/LearnBetter/EduTech",
+      "description": "Revolutionizing education through technology",
+      "stargazers_count": 3021,
+      "language": "Java"
+    },
+    {
+      "id": 8,
+      "name": "VoiceMate",
+      "full_name": "SoundWave/VoiceMate",
+      "owner": {
+        "login": "SoundWave",
+        "avatar_url": "https://avatars.githubusercontent.com/u/786543218?v=4"
+      },
+      "html_url": "https://github.com/SoundWave/VoiceMate",
+      "description": "Your personal AI voice assistant",
+      "stargazers_count": 4123,
+      "language": "Kotlin"
+    },
+    {
+      "id": 9,
+      "name": "TravelGuide",
+      "full_name": "Explorer/TravelGuide",
+      "owner": {
+        "login": "Explorer",
+        "avatar_url": "https://avatars.githubusercontent.com/u/564738291?v=4"
+      },
+      "html_url": "https://github.com/Explorer/TravelGuide",
+      "description": "AI-powered travel planning and recommendations",
+      "stargazers_count": 2891,
+      "language": "PHP"
+    },
+    {
+      "id": 10,
+      "name": "ShopSmart",
+      "full_name": "RetailGenius/ShopSmart",
+      "owner": {
+        "login": "RetailGenius",
+        "avatar_url": "https://avatars.githubusercontent.com/u/239847112?v=4"
+      },
+      "html_url": "https://github.com/RetailGenius/ShopSmart",
+      "description": "Smart shopping assistant for better deals and savings",
+      "stargazers_count": 3650,
+      "language": "C#"
+    }
+  ]
+}

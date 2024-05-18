@@ -40,7 +40,11 @@ export function LanguageSelect() {
           </p>
         </Button>
       </PopoverTrigger>
-      <PopoverContent className="w-[200px] p-0" align="end">
+      <PopoverContent
+        className="w-[200px] p-0"
+        align="end"
+        data-testid="language-select-content"
+      >
         <ul className="divide-y divide-gray-200 flex flex-col max-h-80 overflow-y-auto">
           {language && (
             <li className="w-full">
