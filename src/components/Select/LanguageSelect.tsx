@@ -13,7 +13,7 @@ import { Button } from "../Button"
 import { Popover, PopoverContent, PopoverTrigger } from "../Popover"
 
 export function LanguageSelect() {
-  const { languages } = useProgrammingLanguages()
+  const { languages, isLoading } = useProgrammingLanguages()
 
   const searchParams = useSearchParams()
   const addSearchParam = useAddSearchParam()
@@ -29,6 +29,10 @@ export function LanguageSelect() {
       removeSearchParam("language")
     }
     setIsOpen(false)
+  }
+
+  if (isLoading) {
+    return null
   }
 
   return (

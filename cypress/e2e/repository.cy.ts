@@ -58,7 +58,7 @@ describe("Repository", () => {
       // Wait for the loader to disappear
       cy.get('div[data-testid="loader"]').should("not.exist")
 
-      // Click the first repository card
+      // Click the first repository card favorite button
       cy.get("ul li")
         .first()
         .within(() => {
@@ -87,7 +87,7 @@ describe("Repository", () => {
       // Wait for the loader to disappear
       cy.get('div[data-testid="loader"]').should("not.exist")
 
-      // Click the first repository card
+      // Click the first repository card favorite button
       cy.get("ul li")
         .first()
         .within(() => {
@@ -161,7 +161,7 @@ describe("Repository", () => {
       // Visit the home page
       cy.visit("/")
 
-      // Click the repository card favorite button
+      // Click the first and last repository card favorite button
       cy.get("ul li")
         .first()
         .within(() => {
@@ -187,6 +187,34 @@ describe("Repository", () => {
 
       // Verify that the correct number of repositories are displayed
       cy.get("ul li").should("have.length", 1)
+    })
+  })
+
+  describe("Repositories Query Failed", () => {
+    beforeEach(() => {
+      cy.intercept(
+        "GET",
+        `https://api.github.com/search/repositories?q=created:%3E${date}+language:all*`,
+        {
+          statusCode: 403,
+          body: {
+            message: "API rate limit exceeded",
+          },
+        }
+      ).as("getRepos")
+    })
+
+    it("should display a message if repositories query fails", () => {
+      // Visit the home page
+      cy.visit("/")
+
+      // Wait for the loader to disappear
+      cy.get('div[data-testid="loader"]').should("not.exist")
+
+      // Verify that the message is displayed
+      cy.get("p")
+        .contains("API rate limit exceeded")
+        .should("have.class", "text-red-600")
     })
   })
 })

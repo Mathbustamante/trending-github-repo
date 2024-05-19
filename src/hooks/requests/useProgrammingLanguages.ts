@@ -1,20 +1,17 @@
+import { fetcher } from "@/src/lib/utils"
+import { GETLanguages } from "@/src/types/languages"
+import useSWR from "swr"
+
 export function useProgrammingLanguages() {
-  const languages = [
-    "ReScript",
-    "Python",
-    "JavaScript",
-    "HTML",
-    "Go",
-    "TypeScript",
-    "C",
-    "Java",
-    "Kotlin",
-    "Dart",
-    "Swift",
-    "PHP",
-  ]
+  const { data, isLoading, error } = useSWR<GETLanguages>(
+    "https://mathbustamante.github.io/api/programming-languages.json",
+    fetcher
+  )
+  const languages = data?.data ?? []
 
   return {
-    languages: Array.from(languages),
+    languages,
+    isLoading,
+    error,
   }
 }
